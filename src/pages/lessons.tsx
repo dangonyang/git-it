@@ -61,7 +61,6 @@ export default function Lessons() {
                                 <div className="progress-bar">
                                     <div
                                         className="progress-fill"
-                                        style={{ width: `${lesson.progress}%` }}
                                     />
                                 </div>
                                 <button onClick={() => navigate(`/lesson${lesson.id}`)}>start</button>
