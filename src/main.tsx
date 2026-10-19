@@ -6,7 +6,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename="/git-it/">
+    <BrowserRouter basename="/git-it">
       <App />
     </BrowserRouter>
   </StrictMode>
